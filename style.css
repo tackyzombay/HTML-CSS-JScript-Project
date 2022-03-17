@@ -1,0 +1,342 @@
+body {
+    background: black;
+}
+
+#server{
+    font-size: 30px;
+    color: #ff4340;
+    margin-right: 1%;
+}
+
+#canvas{
+    margin-right: 20%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+    background-color: #40f5ff;
+    padding: 0 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    margin-top: 5px;
+}
+
+.dropmenu{
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.drop{
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 1000px;
+}
+
+.dropmenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropmenu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropmenu-content a:hover {background-color: #ddd;}
+
+.drop:hover .dropmenu-content {display: block;}
+
+.drop:hover .dropmenu {background-color: #ffa340;}
+
+.time{
+    margin-right: 355px;
+    font-size: 250%;
+    color: #ff4340;
+}
+
+.promo img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.promo{
+position: relative;
+margin: auto;
+}
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: rgb(38, 0, 255);
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+.titik{
+  text-align: center;
+  margin-top: -40px;
+}
+
+.dot {
+cursor: pointer;
+height: 10px;
+width: 10px;
+margin: 0 4px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
+
+.judul{
+    background-color: #ffa340;
+}
+
+.namajudul{
+    font-size: 80px;
+    color: blueviolet;
+    margin-left: 40%;
+}
+
+.category{
+    background-color: #ffa340;
+    display: flex;
+}
+
+.categorynama{
+    background-color: #ffa340;
+    display: flex;
+}
+
+#image1{
+    font-size: 40px;
+    color: blueviolet;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.nama1{
+    font-size: 40px;
+    color: blueviolet;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+#image2{
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.nama2{
+    font-size: 40px;
+    color: blueviolet;
+    margin-left: 400px;
+    margin-bottom: 5%;
+}
+
+#image3{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.nama3{
+    font-size: 40px;
+    color: blueviolet;
+    margin-left: 400px;
+    margin-bottom: 5%;
+}
+
+.category2{
+    background-color: #ffa340;
+    display: flex;
+}
+
+.categorynama2{
+    background-color: #ffa340;
+    display: flex;
+}
+
+#image4{
+    margin-left: 380px;
+}
+
+.nama4{
+    font-size: 40px;
+    color: blueviolet;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+#image5{
+    margin-left: 100px;
+}
+
+.nama5{
+    font-size: 40px;
+    color: blueviolet;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+.nama6{
+    font-size: 40px;
+    color: blueviolet;
+    margin-left: 9%;
+    margin-bottom: 5%;
+}
+
+#footer{
+    background-color: black;
+    
+}
+
+
+ #foot{
+    background-color: black;
+ }
+#info{
+    font-size: 25px;
+    margin-left: 42%;
+    color:white;
+}
+
+#faq{
+    font-size: 25px;
+    margin-left: 44%;
+    color:white;
+}
+
+#alamat{
+    font-size: 25px;
+    margin-left: 40%;
+    color:white;
+}
+
+#sosmed{
+    font-size: 25px;
+    margin-left: 5%;
+    color:white;
+}
+
+#sosial{
+    background-color: black;
+    display: flex;
+}
+
+#twit{
+    margin-left: 4%;
+}
+
+#fb{
+    margin-left: 1%;
+}
+
+#ig{
+    margin-left: 1%;
+}
+
+.collapse {
+    background-color: #9999ff;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapse:hover {
+    background-color: #ff99ff;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ff99ff;
+  }
+
+  .column{
+    padding: 50px;
+    transition: transform .2s;
+  }
+
+  .column:hover{
+      transform: scale(1.2);
+  }
+
+  #press{
+      margin-left: 45%;
+  }
+  #buy{
+      margin-left: 46%;
+  }

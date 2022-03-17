@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FAQ Hoops Universe</title>
+</head>
+<body style ="background-color: #9999ff;">
+    <!--header-->
+    <div id = "header">
+        <div id = "logo">
+            <a href="index.html">
+                <img src="image/logo.jpg" alt="" width="150" height="75">
+            </a>
+        </div>
+        <div class="drop">
+              <button onclick="myFunction()" class="dropmenu">Navigation</button>
+                <div id="dropdown" class="dropmenu-content">
+                  <a href="index.html">Home</a>
+                  <a href="Purchase Product.html">Shoes</a>
+                  <a href="Purchase Product.html">Accessories</a>
+                  <a href="FAQ.html">FAQ</a>
+                  <a href="Purchase Product.html">Purchase Product</a>
+                </div>
+        </div>
+    </div>
+
+    <!--main faq-->
+        <p style="font-size: 24px;text-align: center; color:#ffcc99">
+            Frequently Asked Questions Hoops Universe
+        </p>
+        <button type="tombol" class="collapse" style="font-size: 18px; text-align:left; color: #ffe699">
+            1. What is Hoops Universe?
+        </button>
+        <div class="content">
+            <p style="font-size: 16px; text-align: left; color: #99ffff;">
+                Hoops Universe is a famous basketball store established in July 2010.
+            </p>
+        </div>
+        
+        <button type="tombol" class="collapse" style="font-size: 18px; text-align: left; color: #ffe699;">
+            2. What's on sale at Hoops Universe?
+        </button>
+        <div class="content">
+            <p style="font-size: 16px; text-align: left; color: #99ffff;">
+                Our store provides high-quality basketball shoes and accessories from many brands.
+            </p>
+        </div>
+        <button type="tombol" class="collapse" style="font-size: 18px; text-align: left; color: #ffe699;">
+            3. Does Hoops Universe have branches?
+        </button>
+        <div class="content">
+            <p style="font-size: 16px; text-align: left; color: #99ffff;">
+                There are many outlets available in big cities such as Jakarta, Tangerang, Bandung, Bekasi, and Yogyakarta.
+            </p>
+        </div>
+        <button type="tombol" class="collapse" style="font-size: 18px; text-align: left; color: #ffe699;">
+            4. Is the quality of the goods being sold?
+        </button>
+        <div class="content">
+        <p style="font-size: 16px; text-align: left; color: #99ffff;">
+            Yes our store given the best quality for our costumer
+        </p>
+        </div>
+        <button type="tombol" class="collapse" style="font-size: 18px; text-align: left; color: #ffe699;">
+            5. Is there a product purchase guarantee?
+        </button>
+        <div class="content">
+        <p style="font-size: 16px; text-align: left; color: #99ffff;">
+            Yes, based on terms and condition
+        </p>
+        </div>
+        <button type="tombol" class="collapse" style="font-size: 18px; text-align: left; color: #ffe699;">
+            6. What courier services are available for online purchases?
+        </button>
+        <div class="content">
+        <p style="font-size: 16px; text-align: left; color: #99ffff;">
+            We can provide any courier services you want, just make sure you paid them
+        </p>
+        </div>
+        <button type="tombol" class="collapse" style="font-size: 18px; text-align: left; color: #ffe699;">
+            7. Can retund the item?
+        </button>
+        <div class="content">
+        <p style="font-size: 16px; text-align: left; color: #99ffff;">
+            No, the list in terms and condition
+        </p>
+        </div>
+
+        <!--footer-->
+        <div id = "footer">
+
+            <div id="foot">
+        
+                    
+                <p id="info">
+                    Hubungi kami
+                    <br>
+                    0811456495
+                </p>
+                <div id="faq">
+                    <a href="faq.html">FAQ</a>
+                </div>
+                <p id="alamat">
+                    Jalan Dua Manggis No.31
+                </p>
+                <p id="sosmed">
+                    Ikuti kami
+                </p>
+            
+            </div>
+        
+            <div id="sosial">
+        
+                <div id="twit">
+                    <a href="www.twitter.com">
+                        <img src="image/twitter.png" alt="" width="35px" height="35px">
+                    </a>
+                </div>
+                <div id="fb">
+                    <a href="www.facebook.com">
+                        <img src="image/facebook.jpg" alt="" width="35px" height="35px">
+                    </a>
+                </div>
+                <div id="ig">    
+                    <a href="www.instagram.com">
+                        <img src="image/insta.png" alt="" width="35px" height="35px">
+                    </a>
+                </div>
+            
+            </div>
+        
+        </div>
+</body>
+<script>
+
+    var coll = document.getElementsByClassName("collapse");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</html>
